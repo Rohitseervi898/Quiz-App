@@ -1,0 +1,1541 @@
+{
+    "Questions": [
+      {
+        "language": "HTML",
+        "difficulty": [
+          {
+            "easy": [
+              {
+                "id": 1,
+                "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Text Markup Language",
+                  "High Text Markup Language",
+                  "Hyper Tabular Markup Language",
+                  "None of these"
+                ],
+                "answer": "Hyper Text Markup Language"
+              },
+              {
+                "id": 2,
+                "question": "What is the correct HTML element for inserting a line break?",
+                "options": [
+                  "<lb>",
+                  "<break>",
+                  "<br>",
+                  "<line>"
+                ],
+                "answer": "<br>"
+              },
+              {
+                "id": 3,
+                "question": "Which tag is used to define an image in HTML?",
+                "options": [
+                  "<img>",
+                  "<image>",
+                  "<src>",
+                  "<pic>"
+                ],
+                "answer": "<img>"
+              },
+              {
+                "id": 4,
+                "question": "Which HTML tag is used to create a hyperlink?",
+                "options": [
+                  "<link>",
+                  "<a>",
+                  "<href>",
+                  "<hyper>"
+                ],
+                "answer": "<a>"
+              },
+              {
+                "id": 5,
+                "question": "What is the correct HTML element for the largest heading?",
+                "options": [
+                  "<heading>",
+                  "<h6>",
+                  "<head>",
+                  "<h1>"
+                ],
+                "answer": "<h1>"
+              },
+              {
+                "id": 6,
+                "question": "What tag is used to create a numbered list?",
+                "options": [
+                  "<ul>",
+                  "<list>",
+                  "<ol>",
+                  "<dl>"
+                ],
+                "answer": "<ol>"
+              },
+              {
+                "id": 7,
+                "question": "Which attribute is used in HTML to define inline styles?",
+                "options": [
+                  "styles",
+                  "style",
+                  "font",
+                  "class"
+                ],
+                "answer": "style"
+              },
+              {
+                "id": 8,
+                "question": "How can you make a text bold in HTML?",
+                "options": [
+                  "<b> or <strong>",
+                  "<bold>",
+                  "<text-bold>",
+                  "<bl>"
+                ],
+                "answer": "<b> or <strong>"
+              },
+              {
+                "id": 9,
+                "question": "Which HTML tag is used to define a table row?",
+                "options": [
+                  "<tr>",
+                  "<td>",
+                  "<table>",
+                  "<row>"
+                ],
+                "answer": "<tr>"
+              },
+              {
+                "id": 10,
+                "question": "What tag is used to create an input field in HTML?",
+                "options": [
+                  "<input>",
+                  "<field>",
+                  "<textbox>",
+                  "<enter>"
+                ],
+                "answer": "<input>"
+              },
+              {
+                "id": 11,
+                "question": "Which tag is used to add a comment in HTML?",
+                "options": [
+                  "// comment",
+                  "<!-- comment -->",
+                  "## comment",
+                  "/* comment */"
+                ],
+                "answer": "<!-- comment -->"
+              },
+              {
+                "id": 12,
+                "question": "What does the <title> tag do?",
+                "options": [
+                  "Sets the page heading",
+                  "Adds a tooltip",
+                  "Sets the page title in the browser tab",
+                  "Changes font size"
+                ],
+                "answer": "Sets the page title in the browser tab"
+              },
+              {
+                "id": 13,
+                "question": "How do you specify the character encoding for an HTML document?",
+                "options": [
+                  "<meta charset=\"UTF-8\">",
+                  "<character-set=\"UTF-8\">",
+                  "<encoding=\"UTF-8\">",
+                  "<charset=\"UTF-8\">"
+                ],
+                "answer": "<meta charset=\"UTF-8\">"
+              },
+              {
+                "id": 14,
+                "question": "Which tag is used to define a paragraph in HTML?",
+                "options": [
+                  "<pg>",
+                  "<text>",
+                  "<p>",
+                  "<para>"
+                ],
+                "answer": "<p>"
+              },
+              {
+                "id": 15,
+                "question": "Which tag is used to display a checkbox in a form?",
+                "options": [
+                  "<box>",
+                  "<input type=\"checkbox\">",
+                  "<checkbox>",
+                  "<check>"
+                ],
+                "answer": "<input type=\"checkbox\">"
+              }
+            ]
+          },
+          {
+            "medium": [
+              {
+                "id": 1,
+                "question": "Which tag is used to define a container for navigation links?",
+                "options": [
+                  "<nav>",
+                  "<menu>",
+                  "<navigation>",
+                  "<links>"
+                ],
+                "answer": "<nav>"
+              },
+              {
+                "id": 2,
+                "question": "Which HTML element is used to define important text?",
+                "options": [
+                  "<i>",
+                  "<b>",
+                  "<strong>",
+                  "<em>"
+                ],
+                "answer": "<strong>"
+              },
+              {
+                "id": 3,
+                "question": "What does the 'action' attribute in the <form> tag specify?",
+                "options": [
+                  "The type of data submitted",
+                  "The URL where the form data is sent",
+                  "The validation method",
+                  "The name of the form"
+                ],
+                "answer": "The URL where the form data is sent"
+              },
+              {
+                "id": 4,
+                "question": "Which HTML tag is used to play video files?",
+                "options": [
+                  "<video>",
+                  "<media>",
+                  "<movie>",
+                  "<player>"
+                ],
+                "answer": "<video>"
+              },
+              {
+                "id": 5,
+                "question": "What is the purpose of the 'alt' attribute in an image tag?",
+                "options": [
+                  "Change image size",
+                  "Provide an alternative image",
+                  "Specify the image alignment",
+                  "Provide alternative text for the image"
+                ],
+                "answer": "Provide alternative text for the image"
+              },
+              {
+                "id": 6,
+                "question": "Which tag is used to group block-elements together?",
+                "options": [
+                  "<div>",
+                  "<span>",
+                  "<section>",
+                  "<group>"
+                ],
+                "answer": "<div>"
+              },
+              {
+                "id": 7,
+                "question": "What does the <label> tag do in a form?",
+                "options": [
+                  "Displays a field value",
+                  "Defines a clickable label for a form element",
+                  "Submits the form",
+                  "Creates a dropdown list"
+                ],
+                "answer": "Defines a clickable label for a form element"
+              },
+              {
+                "id": 8,
+                "question": "Which attribute specifies that an input field must be filled out before submitting?",
+                "options": [
+                  "required",
+                  "validate",
+                  "mandatory",
+                  "checked"
+                ],
+                "answer": "required"
+              },
+              {
+                "id": 9,
+                "question": "Which HTML5 tag is used to define self-contained content like a blog post?",
+                "options": [
+                  "<article>",
+                  "<section>",
+                  "<aside>",
+                  "<content>"
+                ],
+                "answer": "<article>"
+              },
+              {
+                "id": 10,
+                "question": "Which HTML tag is used to create a drop-down list?",
+                "options": [
+                  "<dropdown>",
+                  "<list>",
+                  "<select>",
+                  "<menu>"
+                ],
+                "answer": "<select>"
+              },
+              {
+                "id": 11,
+                "question": "What is the correct way to embed an audio file in HTML?",
+                "options": [
+                  "<media src='sound.mp3'>",
+                  "<audio src='sound.mp3' controls></audio>",
+                  "<sound>sound.mp3</sound>",
+                  "<mp3>sound.mp3</mp3>"
+                ],
+                "answer": "<audio src='sound.mp3' controls></audio>"
+              },
+              {
+                "id": 12,
+                "question": "What does the <fieldset> tag do in a form?",
+                "options": [
+                  "Creates a checkbox field",
+                  "Groups related elements within a form",
+                  "Adds a new section to the form",
+                  "Sets the form layout"
+                ],
+                "answer": "Groups related elements within a form"
+              },
+              {
+                "id": 13,
+                "question": "Which tag represents the footer of a document or section?",
+                "options": [
+                  "<bottom>",
+                  "<foot>",
+                  "<footer>",
+                  "<end>"
+                ],
+                "answer": "<footer>"
+              },
+              {
+                "id": 14,
+                "question": "Which input type allows the user to select a file?",
+                "options": [
+                  "text",
+                  "file",
+                  "picker",
+                  "upload"
+                ],
+                "answer": "file"
+              },
+              {
+                "id": 15,
+                "question": "Which tag is used for defining a client-side script (JavaScript)?",
+                "options": [
+                  "<js>",
+                  "<script>",
+                  "<javascript>",
+                  "<code>"
+                ],
+                "answer": "<script>"
+              }
+            ]
+          },
+          {
+            "hard": [
+              {
+                "id": 1,
+                "question": "What is the purpose of the 'sandbox' attribute in an <iframe> tag?",
+                "options": [
+                  "To style the iframe content",
+                  "To add scrolling to iframe",
+                  "To apply security restrictions to the iframe content",
+                  "To make the iframe responsive"
+                ],
+                "answer": "To apply security restrictions to the iframe content"
+              },
+              {
+                "id": 2,
+                "question": "Which attribute is used with the <form> tag to specify where to display the response after submitting?",
+                "options": [
+                  "target",
+                  "action",
+                  "method",
+                  "display"
+                ],
+                "answer": "target"
+              },
+              {
+                "id": 3,
+                "question": "What does the 'contenteditable' attribute do?",
+                "options": [
+                  "Prevents content from being edited",
+                  "Makes the content editable in the browser",
+                  "Encrypts the content",
+                  "Validates the content"
+                ],
+                "answer": "Makes the content editable in the browser"
+              },
+              {
+                "id": 4,
+                "question": "Which element defines a command button that a user can invoke from a popup menu?",
+                "options": [
+                  "<command>",
+                  "<menuitem>",
+                  "<button>",
+                  "<option>"
+                ],
+                "answer": "<menuitem>"
+              },
+              {
+                "id": 5,
+                "question": "What is the function of the <datalist> element in HTML5?",
+                "options": [
+                  "Defines a list of options for a <select> dropdown",
+                  "Specifies pre-defined options for an <input> field",
+                  "Creates a table",
+                  "Styles a list of data"
+                ],
+                "answer": "Specifies pre-defined options for an <input> field"
+              },
+              {
+                "id": 6,
+                "question": "Which global attribute can be used to reference a unique element ID?",
+                "options": [
+                  "for",
+                  "ref",
+                  "aria-label",
+                  "id"
+                ],
+                "answer": "id"
+              },
+              {
+                "id": 7,
+                "question": "Which HTML5 API allows the browser to store data locally that persists after the browser is closed?",
+                "options": [
+                  "Session Storage",
+                  "Local Storage",
+                  "Web Workers",
+                  "Cookies"
+                ],
+                "answer": "Local Storage"
+              },
+              {
+                "id": 8,
+                "question": "What does the 'draggable' attribute do in HTML5?",
+                "options": [
+                  "Allows resizing of elements",
+                  "Enables an element to be moved using drag-and-drop",
+                  "Makes elements editable",
+                  "Adds scroll bars to the element"
+                ],
+                "answer": "Enables an element to be moved using drag-and-drop"
+              },
+              {
+                "id": 9,
+                "question": "Which tag is used to declare metadata for a document?",
+                "options": [
+                  "<meta>",
+                  "<data>",
+                  "<script>",
+                  "<info>"
+                ],
+                "answer": "<meta>"
+              },
+              {
+                "id": 10,
+                "question": "Which attribute in HTML is used to bind custom data to elements?",
+                "options": [
+                  "data-*",
+                  "bind",
+                  "custom",
+                  "attr-*"
+                ],
+                "answer": "data-*"
+              },
+              {
+                "id": 11,
+                "question": "What is the purpose of the <output> tag in HTML5?",
+                "options": [
+                  "Displays results of calculations or user actions",
+                  "Defines exportable data",
+                  "Creates logs",
+                  "Prints content to console"
+                ],
+                "answer": "Displays results of calculations or user actions"
+              },
+              {
+                "id": 12,
+                "question": "What does the 'novalidate' attribute on a <form> tag do?",
+                "options": [
+                  "Disables form submission",
+                  "Enables JavaScript validation only",
+                  "Disables built-in HTML5 validation",
+                  "Hides error messages"
+                ],
+                "answer": "Disables built-in HTML5 validation"
+              },
+              {
+                "id": 13,
+                "question": "What is the difference between <section> and <div> in HTML5?",
+                "options": [
+                  "No difference",
+                  "<section> is for theming, <div> is for styling",
+                  "<section> represents a standalone block, <div> is generic",
+                  "<section> is inline, <div> is block-level"
+                ],
+                "answer": "<section> represents a standalone block, <div> is generic"
+              },
+              {
+                "id": 14,
+                "question": "Which tag is used to embed SVG (Scalable Vector Graphics) in an HTML document?",
+                "options": [
+                  "<svg>",
+                  "<vector>",
+                  "<canvas>",
+                  "<graphic>"
+                ],
+                "answer": "<svg>"
+              },
+              {
+                "id": 15,
+                "question": "Which HTML feature allows running JavaScript in the background independently of user interface scripts?",
+                "options": [
+                  "Web Sockets",
+                  "Local Storage",
+                  "Web Workers",
+                  "Service Workers"
+                ],
+                "answer": "Web Workers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "CSS",
+        "difficulty": [
+          {
+            "easy": [
+              {
+                "id": 1,
+                "question": "What does CSS stand for?",
+                "options": [
+                  "Creative Style Sheets",
+                  "Colorful Style Sheets",
+                  "Cascading Style Sheets",
+                  "Computer Style Sheets"
+                ],
+                "answer": "Cascading Style Sheets"
+              },
+              {
+                "id": 2,
+                "question": "Which HTML tag is used to link an external CSS file?",
+                "options": [
+                  "<css>",
+                  "<link>",
+                  "<style>",
+                  "<script>"
+                ],
+                "answer": "<link>"
+              },
+              {
+                "id": 3,
+                "question": "Where is the correct place to insert a CSS link in HTML?",
+                "options": [
+                  "Inside <footer>",
+                  "Inside <body>",
+                  "Inside <head>",
+                  "After <html>"
+                ],
+                "answer": "Inside <head>"
+              },
+              {
+                "id": 4,
+                "question": "How do you insert a comment in CSS?",
+                "options": [
+                  "// comment",
+                  "# comment",
+                  "/* comment */",
+                  "<!-- comment -->"
+                ],
+                "answer": "/* comment */"
+              },
+              {
+                "id": 5,
+                "question": "Which property is used to change text color?",
+                "options": [
+                  "text-color",
+                  "font-color",
+                  "color",
+                  "text-style"
+                ],
+                "answer": "color"
+              },
+              {
+                "id": 6,
+                "question": "How do you select an element with id 'header'?",
+                "options": [
+                  ".header",
+                  "header",
+                  "#header",
+                  "$header"
+                ],
+                "answer": "#header"
+              },
+              {
+                "id": 7,
+                "question": "How do you select elements with class name 'menu'?",
+                "options": [
+                  "#menu",
+                  ".menu",
+                  "*menu",
+                  "/menu"
+                ],
+                "answer": ".menu"
+              },
+              {
+                "id": 8,
+                "question": "Which property sets the background color of an element?",
+                "options": [
+                  "bg-color",
+                  "background",
+                  "background-color",
+                  "color"
+                ],
+                "answer": "background-color"
+              },
+              {
+                "id": 9,
+                "question": "How do you make text bold using CSS?",
+                "options": [
+                  "font-weight: bold;",
+                  "style: bold;",
+                  "text-style: bold;",
+                  "font: bold;"
+                ],
+                "answer": "font-weight: bold;"
+              },
+              {
+                "id": 10,
+                "question": "Which CSS property is used to set the height of an element?",
+                "options": [
+                  "element-height",
+                  "size",
+                  "height",
+                  "line-height"
+                ],
+                "answer": "height"
+              },
+              {
+                "id": 11,
+                "question": "Which CSS property is used to set the width of an element?",
+                "options": [
+                  "length",
+                  "element-width",
+                  "width",
+                  "max-width"
+                ],
+                "answer": "width"
+              },
+              {
+                "id": 12,
+                "question": "How do you change the font of an element in CSS?",
+                "options": [
+                  "font-family",
+                  "font-style",
+                  "text-font",
+                  "font-weight"
+                ],
+                "answer": "font-family"
+              },
+              {
+                "id": 13,
+                "question": "What is the default value of the position property?",
+                "options": [
+                  "relative",
+                  "absolute",
+                  "static",
+                  "fixed"
+                ],
+                "answer": "static"
+              },
+              {
+                "id": 14,
+                "question": "Which value of display property hides the element but keeps it in the flow?",
+                "options": [
+                  "none",
+                  "inline",
+                  "block",
+                  "visibility: hidden"
+                ],
+                "answer": "visibility: hidden"
+              },
+              {
+                "id": 15,
+                "question": "Which property is used to add space inside an element?",
+                "options": [
+                  "margin",
+                  "padding",
+                  "border",
+                  "spacing"
+                ],
+                "answer": "padding"
+              }
+            ]
+          },
+          {
+            "medium": [
+              {
+                "id": 1,
+                "question": "Which CSS property is used to make text italic?",
+                "options": [
+                  "font-style",
+                  "font-weight",
+                  "text-transform",
+                  "text-style"
+                ],
+                "answer": "font-style"
+              },
+              {
+                "id": 2,
+                "question": "How do you make a list display horizontally?",
+                "options": [
+                  "list-direction: horizontal;",
+                  "display: inline;",
+                  "list-style: row;",
+                  "display: flex;"
+                ],
+                "answer": "display: flex;"
+              },
+              {
+                "id": 3,
+                "question": "What does the 'z-index' property do?",
+                "options": [
+                  "Sets the zoom level",
+                  "Sets the stacking order of elements",
+                  "Adds shadow to elements",
+                  "Adjusts padding"
+                ],
+                "answer": "Sets the stacking order of elements"
+              },
+              {
+                "id": 4,
+                "question": "How do you apply a style to all <p> elements inside a <div>?",
+                "options": [
+                  "div + p",
+                  "div.p",
+                  "div p",
+                  "p div"
+                ],
+                "answer": "div p"
+              },
+              {
+                "id": 5,
+                "question": "Which property is used to make an element float to the left?",
+                "options": [
+                  "position: left;",
+                  "float: left;",
+                  "align: left;",
+                  "display: left;"
+                ],
+                "answer": "float: left;"
+              },
+              {
+                "id": 6,
+                "question": "What is the correct syntax to make a border dotted?",
+                "options": [
+                  "border: 1px dotted black;",
+                  "border-style: black dotted 1px;",
+                  "border: dotted 1px;",
+                  "dotted-border: 1px black;"
+                ],
+                "answer": "border: 1px dotted black;"
+              },
+              {
+                "id": 7,
+                "question": "Which shorthand CSS property combines margin-top, margin-right, margin-bottom, and margin-left?",
+                "options": [
+                  "margin-all",
+                  "margin-combined",
+                  "margin",
+                  "box-margin"
+                ],
+                "answer": "margin"
+              },
+              {
+                "id": 8,
+                "question": "What is the correct syntax to apply a transition on hover?",
+                "options": [
+                  "hover-transition: all;",
+                  "transition: all 0.3s;",
+                  "hover: transition all;",
+                  "transition-on-hover: true;"
+                ],
+                "answer": "transition: all 0.3s;"
+              },
+              {
+                "id": 9,
+                "question": "Which property is used to align text to the center?",
+                "options": [
+                  "text-position: center;",
+                  "text-align: center;",
+                  "align-text: center;",
+                  "position-text: center;"
+                ],
+                "answer": "text-align: center;"
+              },
+              {
+                "id": 10,
+                "question": "What does the 'overflow' property control?",
+                "options": [
+                  "Text alignment",
+                  "Element stacking",
+                  "Element spacing",
+                  "Content that exceeds container size"
+                ],
+                "answer": "Content that exceeds container size"
+              },
+              {
+                "id": 11,
+                "question": "How do you make a fixed background image?",
+                "options": [
+                  "background-repeat: fixed;",
+                  "background-attachment: fixed;",
+                  "background-position: fixed;",
+                  "background-type: fixed;"
+                ],
+                "answer": "background-attachment: fixed;"
+              },
+              {
+                "id": 12,
+                "question": "Which selector targets only the first <li> of every <ul>?",
+                "options": [
+                  "ul > li:first",
+                  "ul:first-child",
+                  "ul li:first-child",
+                  "li:first"
+                ],
+                "answer": "ul li:first-child"
+              },
+              {
+                "id": 13,
+                "question": "What does the 'box-sizing' property do?",
+                "options": [
+                  "Adds shadow to the box",
+                  "Controls element display",
+                  "Includes padding and border in the total width/height",
+                  "Changes the font size"
+                ],
+                "answer": "Includes padding and border in the total width/height"
+              },
+              {
+                "id": 14,
+                "question": "What is the default value of 'position' property?",
+                "options": [
+                  "static",
+                  "relative",
+                  "absolute",
+                  "fixed"
+                ],
+                "answer": "static"
+              },
+              {
+                "id": 15,
+                "question": "Which unit is relative to the root element's font-size?",
+                "options": [
+                  "em",
+                  "%",
+                  "rem",
+                  "vh"
+                ],
+                "answer": "rem"
+              }
+            ]
+          },
+          {
+            "hard": [
+              {
+                "id": 1,
+                "question": "Which pseudo-class selects the last child element of its parent?",
+                "options": [
+                  ":last-child",
+                  ":last-of-type",
+                  "::last",
+                  ":nth-last-child"
+                ],
+                "answer": ":last-child"
+              },
+              {
+                "id": 2,
+                "question": "What is the default 'flex-direction' value in a flex container?",
+                "options": [
+                  "row",
+                  "column",
+                  "row-reverse",
+                  "inherit"
+                ],
+                "answer": "row"
+              },
+              {
+                "id": 3,
+                "question": "Which CSS function allows math calculations inside CSS?",
+                "options": [
+                  "math()",
+                  "calc()",
+                  "compute()",
+                  "evaluate()"
+                ],
+                "answer": "calc()"
+              },
+              {
+                "id": 4,
+                "question": "What is the difference between 'em' and 'rem' units?",
+                "options": [
+                    "'em' is relative to parent, 'rem' to root",
+                    "'em' and 'rem' are the same",
+                    "'em' is relative to root, 'rem' to parent",
+                    "Both are absolute units"
+                ],
+                "answer": "'em' is relative to parent, 'rem' to root"
+              },
+              {
+                "id": 5,
+                "question": "Which CSS property can be used to animate transitions?",
+                "options": [
+                  "transition",
+                  "animation",
+                  "motion",
+                  "transform"
+                ],
+                "answer": "transition"
+              },
+              {
+                "id": 6,
+                "question": "How can you apply a style only when the user hovers over an element?",
+                "options": [
+                  ":hover",
+                  ":active",
+                  ":focus",
+                  ":visited"
+                ],
+                "answer": ":hover"
+              },
+              {
+                "id": 7,
+                "question": "Which property is used to control the order of flex items?",
+                "options": [
+                  "flex-order",
+                  "order",
+                  "flex-sequence",
+                  "z-index"
+                ],
+                "answer": "order"
+              },
+              {
+                "id": 8,
+                "question": "What does 'isolation: isolate;' do in CSS?",
+                "options": [
+                  "Resets all styles",
+                  "Creates a new stacking context",
+                  "Hides the element",
+                  "Applies margin collapse"
+                ],
+                "answer": "Creates a new stacking context"
+              },
+              {
+                "id": 9,
+                "question": "Which pseudo-class matches elements that do NOT match a selector?",
+                "options": [
+                  ":except()",
+                  ":not()",
+                  ":different()",
+                  ":inverse()"
+                ],
+                "answer": ":not()"
+              },
+              {
+                "id": 10,
+                "question": "What does 'clip-path' property do?",
+                "options": [
+                  "Clips overflow content",
+                  "Creates a visible path shape for an element",
+                  "Adds border radius",
+                  "Sets the element background"
+                ],
+                "answer": "Creates a visible path shape for an element"
+              },
+              {
+                "id": 11,
+                "question": "Which selector targets every 3rd element starting from the first?",
+                "options": [
+                  ":nth-child(3n+1)",
+                  ":nth-child(3)",
+                  ":nth(3)",
+                  ":every(3)"
+                ],
+                "answer": ":nth-child(3n+1)"
+              },
+              {
+                "id": 12,
+                "question": "Which CSS property allows a sticky element to stick within its container?",
+                "options": [
+                  "position: sticky;",
+                  "float: sticky;",
+                  "display: sticky;",
+                  "overflow: sticky;"
+                ],
+                "answer": "position: sticky;"
+              },
+              {
+                "id": 13,
+                "question": "Which of the following is not a valid display value?",
+                "options": [
+                  "inline-block",
+                  "grid",
+                  "flex",
+                  "box-model"
+                ],
+                "answer": "box-model"
+              },
+              {
+                "id": 14,
+                "question": "Which shorthand property sets margin and padding together?",
+                "options": [
+                  "spacing",
+                  "margin-padding",
+                  "gap",
+                  "There is no such shorthand"
+                ],
+                "answer": "There is no such shorthand"
+              },
+              {
+                "id": 15,
+                "question": "Which CSS rule prevents child elements from overflowing their parent?",
+                "options": [
+                  "overflow: scroll;",
+                  "overflow: hidden;",
+                  "display: block;",
+                  "contain: layout;"
+                ],
+                "answer": "overflow: hidden;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "JavaScript",
+        "difficulty": [
+          {
+            "easy": [
+              {
+                "id": 1,
+                "question": "What is JavaScript primarily used for?",
+                "options": [
+                  "Styling web pages",
+                  "Structuring web content",
+                  "Adding interactivity to web pages",
+                  "Managing databases"
+                ],
+                "answer": "Adding interactivity to web pages"
+              },
+              {
+                "id": 2,
+                "question": "Which symbol is used for comments in JavaScript?",
+                "options": [
+                  "//",
+                  "/* */",
+                  "<!-- -->",
+                  "#"
+                ],
+                "answer": "//"
+              },
+              {
+                "id": 3,
+                "question": "Which company developed JavaScript?",
+                "options": [
+                  "Microsoft",
+                  "Netscape",
+                  "Google",
+                  "Apple"
+                ],
+                "answer": "Netscape"
+              },
+              {
+                "id": 4,
+                "question": "How do you declare a variable in JavaScript?",
+                "options": [
+                  "v name = value;",
+                  "variable name = value;",
+                  "var name = value;",
+                  "let name value;"
+                ],
+                "answer": "var name = value;"
+              },
+              {
+                "id": 5,
+                "question": "Which keyword is used to define a constant in JavaScript?",
+                "options": [
+                  "let",
+                  "const",
+                  "var",
+                  "define"
+                ],
+                "answer": "const"
+              },
+              {
+                "id": 6,
+                "question": "How do you write 'Hello World' in an alert box?",
+                "options": [
+                  "alertBox('Hello World');",
+                  "msg('Hello World');",
+                  "alert('Hello World');",
+                  "msgBox('Hello World');"
+                ],
+                "answer": "alert('Hello World');"
+              },
+              {
+                "id": 7,
+                "question": "Which operator is used to assign a value to a variable?",
+                "options": [
+                  "*",
+                  "=",
+                  "==",
+                  ":"
+                ],
+                "answer": "="
+              },
+              {
+                "id": 8,
+                "question": "Which method is used to write content into the HTML document?",
+                "options": [
+                  "console.log()",
+                  "document.write()",
+                  "alert()",
+                  "window.write()"
+                ],
+                "answer": "document.write()"
+              },
+              {
+                "id": 9,
+                "question": "How do you create a function in JavaScript?",
+                "options": [
+                  "function: myFunction()",
+                  "function = myFunction()",
+                  "function myFunction()",
+                  "create function myFunction()"
+                ],
+                "answer": "function myFunction()"
+              },
+              {
+                "id": 10,
+                "question": "How do you call a function named 'myFunction'?",
+                "options": [
+                  "call myFunction();",
+                  "myFunction();",
+                  "execute myFunction();",
+                  "run myFunction();"
+                ],
+                "answer": "myFunction();"
+              },
+              {
+                "id": 11,
+                "question": "Which keyword is used to return a value from a function?",
+                "options": [
+                  "get",
+                  "give",
+                  "return",
+                  "send"
+                ],
+                "answer": "return"
+              },
+              {
+                "id": 12,
+                "question": "Which built-in method combines the text of two strings?",
+                "options": [
+                  "merge()",
+                  "concat()",
+                  "append()",
+                  "join()"
+                ],
+                "answer": "concat()"
+              },
+              {
+                "id": 13,
+                "question": "Which built-in method returns the length of a string?",
+                "options": [
+                  "length()",
+                  "getLength()",
+                  "len()",
+                  "length"
+                ],
+                "answer": "length"
+              },
+              {
+                "id": 14,
+                "question": "How do you write a conditional statement for executing code if 'x' is equal to 5?",
+                "options": [
+                  "if x = 5",
+                  "if (x == 5)",
+                  "if x == 5 then",
+                  "if x equals 5"
+                ],
+                "answer": "if (x == 5)"
+              },
+              {
+                "id": 15,
+                "question": "Which of the following is a correct way to start a for loop?",
+                "options": [
+                  "for (i = 0; i < 5; i++)",
+                  "for i = 1 to 5",
+                  "loop (i = 0; i < 5; i++)",
+                  "for (i in 0..5)"
+                ],
+                "answer": "for (i = 0; i < 5; i++)"
+              }
+            ]
+          },
+          {
+            "medium": [
+              {
+                "id": 1,
+                "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+                "options": [
+                    "'null' is a type, 'undefined' is not",
+                    "'null' has no value, 'undefined' is uninitialized",
+                    "'null' is an object, 'undefined' is a primitive",
+                    "'null' and 'undefined' are the same"
+                ],
+                "answer": "'null' has no value, 'undefined' is uninitialized"
+              },
+              {
+                "id": 2,
+                "question": "Which of the following methods can be used to convert a string into an integer?",
+                "options": [
+                  "parseInt()",
+                  "toInt()",
+                  "parseInteger()",
+                  "int()"
+                ],
+                "answer": "parseInt()"
+              },
+              {
+                "id": 3,
+                "question": "Which operator is used to compare both value and type in JavaScript?",
+                "options": [
+                  "==",
+                  "===",
+                  "!=",
+                  "!=="
+                ],
+                "answer": "==="
+              },
+              {
+                "id": 4,
+                "question": "Which method is used to add an item to the end of an array?",
+                "options": [
+                  "push()",
+                  "pop()",
+                  "shift()",
+                  "unshift()"
+                ],
+                "answer": "push()"
+              },
+              {
+                "id": 5,
+                "question": "What does the 'this' keyword refer to in JavaScript?",
+                "options": [
+                  "The current object",
+                  "The global window object",
+                  "The function's argument",
+                  "The current function"
+                ],
+                "answer": "The current object"
+              },
+              {
+                "id": 6,
+                "question": "Which JavaScript method is used to find the length of an array?",
+                "options": [
+                  "length()",
+                  "getLength()",
+                  "size()",
+                  "length"
+                ],
+                "answer": "length"
+              },
+              {
+                "id": 7,
+                "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+                "options": [
+                  "var",
+                  "let",
+                  "const",
+                  "variable"
+                ],
+                "answer": "variable"
+              },
+              {
+                "id": 8,
+                "question": "What will be the output of the following code: `console.log(5 + '5')`?",
+                "options": [
+                  "10",
+                  "55",
+                  "Error",
+                  "undefined"
+                ],
+                "answer": "55"
+              },
+              {
+                "id": 9,
+                "question": "Which method is used to remove the first item from an array?",
+                "options": [
+                  "shift()",
+                  "pop()",
+                  "unshift()",
+                  "remove()"
+                ],
+                "answer": "shift()"
+              },
+              {
+                "id": 10,
+                "question": "Which method can be used to check if a variable is an array?",
+                "options": [
+                  "isArray()",
+                  "arrayCheck()",
+                  "Array.isArray()",
+                  "checkArray()"
+                ],
+                "answer": "Array.isArray()"
+              },
+              {
+                "id": 11,
+                "question": "How do you prevent a form from submitting in JavaScript?",
+                "options": [
+                  "event.preventDefault();",
+                  "stopSubmit();",
+                  "form.preventSubmit();",
+                  "cancelSubmit();"
+                ],
+                "answer": "event.preventDefault();"
+              },
+              {
+                "id": 12,
+                "question": "What will the following code output: `console.log(2 + '2' - 1)`?",
+                "options": [
+                  "21",
+                  "3",
+                  "undefined",
+                  "22"
+                ],
+                "answer": "21"
+              },
+              {
+                "id": 13,
+                "question": "Which of the following is NOT a JavaScript data type?",
+                "options": [
+                  "string",
+                  "number",
+                  "boolean",
+                  "character"
+                ],
+                "answer": "character"
+              },
+              {
+                "id": 14,
+                "question": "What is the purpose of the 'setTimeout()' function in JavaScript?",
+                "options": [
+                  "Execute a function after a set time",
+                  "Stop the execution of a function",
+                  "Delay a function's execution for a specified time",
+                  "Set a timeout for the script"
+                ],
+                "answer": "Execute a function after a set time"
+              },
+              {
+                "id": 15,
+                "question": "How do you add a new property to an object in JavaScript?",
+                "options": [
+                  "object.property = value;",
+                  "object.addProperty(value);",
+                  "object.setProperty(property, value);",
+                  "object.add(value);"
+                ],
+                "answer": "object.property = value;"
+              }
+            ]
+          },
+          {
+            "hard": [
+              {
+                "id": 1,
+                "question": "What does the 'bind()' method do in JavaScript?",
+                "options": [
+                    "Creates a new function with 'this'",
+                    "Calls a function immediately",
+                    "Sets a timeout for execution",
+                    "Binds a function to an event"
+                ],
+                "answer": "Creates a new function with 'this'"
+              },
+              {
+                "id": 2,
+                "question": "Which method is used to bind the context of 'this' in a function in JavaScript?",
+                "options": [
+                  "bind()",
+                  "apply()",
+                  "call()",
+                  "context()"
+                ],
+                "answer": "bind()"
+              },
+              {
+                "id": 3,
+                "question": "What is the result of `typeof NaN` in JavaScript?",
+                "options": [
+                  "undefined",
+                  "NaN",
+                  "number",
+                  "object"
+                ],
+                "answer": "number"
+              },
+              {
+                "id": 4,
+                "question": "Which method is used to delay the execution of a function until the current call stack is cleared?",
+                "options": [
+                  "setTimeout()",
+                  "setInterval()",
+                  "requestAnimationFrame()",
+                  "process.nextTick()"
+                ],
+                "answer": "setTimeout()"
+              },
+              {
+                "id": 5,
+                "question": "What is the purpose of 'debouncing' in JavaScript?",
+                "options": [
+                  "To delay the execution of a function",
+                  "To cancel function execution if it's called too often",
+                  "To optimize memory usage",
+                  "To make functions more modular"
+                ],
+                "answer": "To delay the execution of a function"
+              },
+              {
+                "id": 6,
+                "question": "What is a closure in JavaScript?",
+                "options": [
+                    "A delayed function",
+                    "A function accessing outer variables after execution",
+                    "A function that returns another function",
+                    "A function with no parameters"
+                ],
+                "answer": "A function accessing outer variables after execution"
+              },
+              {
+                "id": 7,
+                "question": "What does the 'bind()' method do in JavaScript?",
+                "options": [
+                  "It binds the current object to a function",
+                  "It binds two objects together",
+                  "It binds a function to a variable",
+                  "It binds a function to a specific context"
+                ],
+                "answer": "It binds a function to a specific context"
+              },
+              {
+                "id": 8,
+                "question": "Which of the following is NOT true about JavaScript's 'this' keyword?",
+                "options": [
+                  "'this' refers to the global object in non-strict mode",
+                  "'this' refers to the object in object methods",
+                  "'this' is undefined in arrow functions",
+                  "'this' always refers to the function's parent"
+                ],
+                "answer": "'this' always refers to the function's parent"
+              },
+              {
+                "id": 9,
+                "question": "What is a promise in JavaScript?",
+                "options": [
+                  "A way to handle asynchronous operations",
+                  "A function that waits for other functions",
+                  "An object that contains multiple functions",
+                  "An object that returns data from an API"
+                ],
+                "answer": "A way to handle asynchronous operations"
+              },
+              {
+                "id": 10,
+                "question": "How can you make an asynchronous function wait for a promise to resolve in JavaScript?",
+                "options": [
+                  "By using setTimeout()",
+                  "By using async/await",
+                  "By using promise.then()",
+                  "By using the 'await' keyword"
+                ],
+                "answer": "By using async/await"
+              },
+              {
+                "id": 11,
+                "question": "What does the 'new' keyword do in JavaScript?",
+                "options": [
+                  "Creates a new object",
+                  "Creates a new variable",
+                  "Creates a new function",
+                  "Creates a new prototype"
+                ],
+                "answer": "Creates a new object"
+              },
+              {
+                "id": 12,
+                "question": "What is the purpose of 'Object.freeze()' in JavaScript?",
+                "options": [
+                  "It prevents modification of an object's properties",
+                  "It removes an object's properties",
+                  "It adds properties to an object",
+                  "It prevents object instantiation"
+                ],
+                "answer": "It prevents modification of an object's properties"
+              },
+              {
+                "id": 13,
+                "question": "What will the following code return: `[].slice.call('hello')`?",
+                "options": [
+                  "['h', 'e', 'l', 'l', 'o']",
+                  "['h', 'e', 'l', 'l']",
+                  "'hello'",
+                  "error"
+                ],
+                "answer": "['h', 'e', 'l', 'l', 'o']"
+              },
+              {
+                "id": 14,
+                "question": "How do you remove duplicates from an array in JavaScript?",
+                "options": [
+                  "Using array.sort()",
+                  "Using Set()",
+                  "Using array.filter()",
+                  "Using array.reduce()"
+                ],
+                "answer": "Using Set()"
+              },
+              {
+                "id": 15,
+                "question": "Which method is used to execute a function once a promise is resolved in JavaScript?",
+                "options": [
+                  "resolve()",
+                  "then()",
+                  "catch()",
+                  "finally()"
+                ],
+                "answer": "then()"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
