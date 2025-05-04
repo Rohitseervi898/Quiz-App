@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React,{ useState } from 'react'
 import './App.css'
-import Home from './pages/Home'
 import { Outlet } from 'react-router'
+import QuestionContextProvider from './context/QuestionContextProvider'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Outlet />
-    </>
+    <QuestionContextProvider >
+    <div className='flex flex-col max-w-130 w-1vw m-auto justify-center h-screen px-1.5'>
+      <Outlet />
+    </div>
+    </QuestionContextProvider>
   )
 }
 
