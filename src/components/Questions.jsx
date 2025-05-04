@@ -4,14 +4,18 @@ import questions from "../Questions.json"
 import QuestionContext from '../context/QuestionContext'
 
 const Questions = () => {
-    // const location = useLocation();
-    // const { language, difficulty } = location.state || {}; // Destructure state
 
     const {language, difficulty}=useContext(QuestionContext)
 
     let qnumber=Math.floor(Math.random()*100%15+1)
-    const question=questions.find(q=>q.language===language).difficulty.find(d=>d[difficulty])[difficulty];
-    console.log(question)
+    const questionLanguage=questions.find(q=>q.language===language)
+    const questionDifficulty=questionLanguage.difficulty.find(d=>d[difficulty])
+    const question=questionDifficulty[difficulty];
+    console.log(questionLanguage)
+    console.log(questionDifficulty)
+    console.log(qnumber)
+    console.log(questionDifficulty[difficulty])
+
 
     const navigate=useNavigate()
 
@@ -30,10 +34,6 @@ const Questions = () => {
             {question[qnumber].options.map((option,index)=>(
                 <button key={index} className='w-full bg-blue-300 border rounded p-1 m-2' onClick={checkAnswer}>{option}</button>
             ))}
-            {/* <button className='w-full bg-blue-300 border rounded p-1 m-2' onClick={checkAnswer}>option 1</button>
-            <button className='w-full bg-blue-300 border rounded p-1 m-2' onClick={checkAnswer}>option 2</button>
-            <button className='w-full bg-blue-300 border rounded p-1 m-2' onClick={checkAnswer}>option 3</button>
-            <button className='w-full bg-blue-300 border rounded p-1 m-2' onClick={checkAnswer}>option 4</button> */}
         </div>
         </>
     )

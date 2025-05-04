@@ -24,13 +24,13 @@ function Home() {
                         <option value="select" selected>Select</option>
                         <option value="HTML">HTML</option>
                         <option value="CSS">CSS</option>
-                        <option value="JavaScript">Javascript</option>
+                        <option value="JavaScript">JavaScript</option>
                         
                     </select>
                 </label>
                 <label htmlFor="difficulty">Select the Language 
                     <select name="difficulty" id="difficulty" className='border rounded w-full py-2 px-3' value={difficulty} onChange={(e)=>{setDifficulty(e.target.value)}}>
-                        {/* <option value="select" selected>Select</option> */}
+                        <option value="select" selected>Select</option>
                         <option value="Easy">Easy</option>
                         <option value="Medium">Medium</option>
                         <option value="Hard">Hard</option>

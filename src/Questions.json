@@ -515,7 +515,7 @@
     "language": "CSS",
     "difficulty": [
       {
-        "easy": [
+        "Easy": [
           {
             "id": 1,
             "question": "What does CSS stand for?",
@@ -684,7 +684,7 @@
         ]
       },
       {
-        "medium": [
+        "Medium": [
           {
             "id": 1,
             "question": "Which CSS property is used to make text italic?",
@@ -853,7 +853,7 @@
         ]
       },
       {
-        "hard": [
+        "Hard": [
           {
             "id": 1,
             "question": "Which pseudo-class selects the last child element of its parent?",
@@ -1027,7 +1027,7 @@
     "language": "JavaScript",
     "difficulty": [
       {
-        "easy": [
+        "Easy": [
           {
             "id": 1,
             "question": "What is JavaScript primarily used for?",
@@ -1196,7 +1196,7 @@
         ]
       },
       {
-        "medium": [
+        "Medium": [
           {
             "id": 1,
             "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
@@ -1365,7 +1365,7 @@
         ]
       },
       {
-        "hard": [
+        "Hard": [
           {
             "id": 1,
             "question": "What does the 'bind()' method do in JavaScript?",
