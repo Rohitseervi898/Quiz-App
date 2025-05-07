@@ -2,13 +2,11 @@ import React,{useState} from "react";
 import QuestionContext from "../context/QuestionContext";
 
 const QuestionContextProvider = ({children})=>{
-    const [language,setLanguage]=useState("")
-    const [difficulty,setDifficulty] = useState("")
-    const [score,setScore] =useState(0)
-    const [count,setCount]=useState(1)
+    const [language,setLanguage]=useState("HTML")
+    const [difficulty,setDifficulty] = useState("Easy")
 
     return(
-        <QuestionContext.Provider value={{language, setLanguage, difficulty, setDifficulty, score,setScore, count, setCount}}>
+        <QuestionContext.Provider value={{language, setLanguage, difficulty, setDifficulty}}>
             {children}
         </QuestionContext.Provider>
     )
