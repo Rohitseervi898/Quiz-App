@@ -10,7 +10,7 @@ const Questions = () => {
     const [score,setScore]=useState(parseInt(localStorage.getItem('score'))||0);
     const [timer, setTimer]= useState(parseInt(localStorage.getItem('timer'))||60);
     const [quiz, setQuiz]=useState([]);
-    const [quizOver, setQuizOver]=useState(true);
+    const [quizOver, setQuizOver]=useState(false);
 
 
     useEffect(()=>{
@@ -33,6 +33,16 @@ const Questions = () => {
         return shuffledArray;
     }
 
+    useEffect(()=>{
+        const interval=setInterval(()=>{
+            setTimer((prev)=>{
+                localStorage.setItem("timer",prev-1);
+                if(prev<=1) clearInterval(interval);
+                return prev-1;
+            })
+        },1000);
+        return ()=>clearInterval(interval)
+    },[]);
 
     // console.log(questionLanguage)
     // console.log(questionDifficulty)
@@ -64,6 +74,8 @@ const Questions = () => {
     const Restart=()=>{
         setCurrentIndex(0);
         setScore(0);
+        // setTimer(60);
+        localStorage.setItem("timer",60)
         setQuiz([]);
         setQuizOver(false);
         return navigate("/")
@@ -77,6 +89,7 @@ const Questions = () => {
         <>
         {!quizOver?(
             <div className='flex flex-col max-w-130 w-102 m-auto justify-center h-screen px-1.5' >
+                <div className='flex items-center size-2/4'>Time left: {timer}</div>
                 <p>{currentIndex+1}/5</p>
                 <p className=''>{quiz[currentIndex].question}</p>
                 {quiz[currentIndex].options.map((option,index)=>(
