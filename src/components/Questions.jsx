@@ -1,4 +1,4 @@
-import React,{useContext, useEffect, useState} from 'react'
+import React,{useContext, useEffect, useState, useRef} from 'react'
 import {useNavigate} from "react-router-dom"
 import questions from "../Questions.json"
 import QuestionContext from '../context/QuestionContext'
@@ -11,6 +11,8 @@ const Questions = () => {
     const [timer, setTimer]= useState(parseInt(localStorage.getItem('timer'))||60);
     const [quiz, setQuiz]=useState([]);
     const [quizOver, setQuizOver]=useState(false);
+    const [pause, setPause]=useState(false);
+    const timerIntervalRef = useRef(null);
 
 
     useEffect(()=>{
@@ -34,41 +36,42 @@ const Questions = () => {
     }
 
     useEffect(()=>{
-        const interval=setInterval(()=>{
-            setTimer((prev)=>{
-                localStorage.setItem("timer",prev-1);
-                if(prev<=1) clearInterval(interval);
-                return prev-1;
-            })
-        },1000);
-        return ()=>clearInterval(interval)
-    },[]);
+        if(pause) return;
 
-    // console.log(questionLanguage)
-    // console.log(questionDifficulty)
-    // console.log(qnumber)
-    // console.log(questionDifficulty[difficulty])
+        timerIntervalRef.current = setInterval(()=>{
+            setTimer((prev)=>{
+                const newTimer = prev - 1;
+                localStorage.setItem("timer", newTimer);
+                if(newTimer <= 0){
+                    clearInterval(timerIntervalRef.current);
+                    setQuizOver(true);
+                    return 0;
+                }
+                return newTimer;
+            });
+        },1000);
+        return () => clearInterval(timerIntervalRef.current);
+    },[pause]);
 
 
     const navigate=useNavigate()
 
     const checkAnswer=(answer)=>{
+        setPause(true);
         if(answer===quiz[currentIndex].answer){
              setScore(score+1);
         }
         
-        if(currentIndex+1<quiz.length){
-            setCurrentIndex(currentIndex+1)
-        }
-        else{
-            setTimeout(() => {
-                // alert(`Your score is ${score + (answer === quiz[currentIndex].answer ? 1 : 0)} `);
-                // setCurrentIndex(0);
-                // setScore(0);
+        setTimeout(()=>{
+            
+            if(currentIndex+1<quiz.length){
+                setCurrentIndex(currentIndex+1)
+            }
+            else{
                 setQuizOver(true)
-                // navigate('/');
-            }, 0);
-        }
+            }
+            setPause(false);
+        },500)
     }
 
     const Restart=()=>{
@@ -89,12 +92,12 @@ const Questions = () => {
         <>
         {!quizOver?(
             <div className='flex flex-col max-w-130 w-102 m-auto justify-center h-screen px-1.5' >
-                <div className='flex items-center size-2/4'>Time left: {timer}</div>
-                <p>{currentIndex+1}/5</p>
+                <div className='flex items-center text-2xl'>Time left: {timer}</div>
                 <p className=''>{quiz[currentIndex].question}</p>
                 {quiz[currentIndex].options.map((option,index)=>(
                     <button key={index} className='w-full bg-blue-300 border rounded p-1 m-2' onClick={()=>checkAnswer(option)}>{option}</button>
                 ))}
+                <p className='self-center m-1'>{currentIndex+1}/5</p>
             </div>
         ):(
             <div className='flex flex-col max-w-130 w-102 m-auto items-center justify-center h-screen px-1.5' >
