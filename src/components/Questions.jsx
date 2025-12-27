@@ -9,9 +9,10 @@ const Questions = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [score,setScore]=useState(parseInt(localStorage.getItem('score'))||0);
     const [timer, setTimer]= useState(parseInt(localStorage.getItem('timer'))||60);
-    const [quiz, setQuiz]=useState([]);
+    const [quiz, setQuiz]=useState(JSON.parse(localStorage.getItem('quiz')) || []);
     const [quizOver, setQuizOver]=useState(false);
     const [pause, setPause]=useState(false);
+    const [selectedAnswer, setSelectedAnswer] = useState(null);
     const timerIntervalRef = useRef(null);
 
 
@@ -22,8 +23,9 @@ const Questions = () => {
             const question=questionDifficulty[difficulty];
             const shuffled = shuffleArray(question).slice(0,5)
             setQuiz(shuffled)
+            localStorage.setItem("quiz",JSON.stringify(shuffled) );
         }
-    },[language || difficulty || quiz.length])
+    },[quiz.length])
     
 
     function shuffleArray(array){
@@ -34,7 +36,7 @@ const Questions = () => {
         }
         return shuffledArray;
     }
-
+    
     useEffect(()=>{
         if(pause) return;
 
@@ -57,6 +59,7 @@ const Questions = () => {
     const navigate=useNavigate()
 
     const checkAnswer=(answer)=>{
+        setSelectedAnswer(answer);
         setPause(true);
         if(answer===quiz[currentIndex].answer){
              setScore(score+1);
@@ -66,21 +69,23 @@ const Questions = () => {
             
             if(currentIndex+1<quiz.length){
                 setCurrentIndex(currentIndex+1)
+                setSelectedAnswer(null);
             }
             else{
                 setQuizOver(true)
             }
             setPause(false);
-        },500)
+        },1000)
     }
 
     const Restart=()=>{
         setCurrentIndex(0);
         setScore(0);
-        // setTimer(60);
+        setTimer(60);
         localStorage.setItem("timer",60)
         setQuiz([]);
         setQuizOver(false);
+        setSelectedAnswer(null);
         return navigate("/")
     }
 
@@ -95,7 +100,7 @@ const Questions = () => {
                 <div className='flex items-center text-2xl'>Time left: {timer}</div>
                 <p className=''>{quiz[currentIndex].question}</p>
                 {quiz[currentIndex].options.map((option,index)=>(
-                    <button key={index} className='w-full bg-blue-300 border rounded p-1 m-2' onClick={()=>checkAnswer(option)}>{option}</button>
+                    <button key={index} className={`w-full border rounded p-1 m-2 ${selectedAnswer ? (option === quiz[currentIndex].answer ? 'bg-green-300' : (option === selectedAnswer ? 'bg-red-300' : 'bg-gray-300')) : 'bg-blue-300'}`} onClick={()=> selectedAnswer ? null : checkAnswer(option)} disabled={!!selectedAnswer}>{option}</button>
                 ))}
                 <p className='self-center m-1'>{currentIndex+1}/5</p>
             </div>
